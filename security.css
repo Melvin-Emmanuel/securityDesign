@@ -45,6 +45,7 @@ body {
 }
 .cart {
   position: relative;
+  color: white;
 }
 .cart::after {
   content: "0";
@@ -687,7 +688,7 @@ font-size: 40px;
     display: flex;
     justify-content: center;
     padding-top: 100px  ;
-    gap: ;
+  
 }
 .sass{
     display: flex;
@@ -711,4 +712,8 @@ font-size: 40px;
 }
 .footer::before{
 
+}
+
+svg{
+  color: red;
 }
